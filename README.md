@@ -1,3 +1,28 @@
-![image](https://github.com/user-attachments/assets/c83d413e-e0f0-4ed4-85ae-caed405c234b)
+# Управление:
 
-![image](https://github.com/user-attachments/assets/09ead8ad-c973-4772-aae0-91ad3215dcbd)
+### Движения
+Влево: <- (удерживается)
+
+Вправо -> (удерживается)
+
+### Стрельба:
+ПРОБЕЛ (удерживается)
+
+### Прочее
+Сохранение: S
+
+Загрузка: L
+
+
+# Бонусы:
+
+Аптечка: добавляет одну жизнь
+
+Лазер: Временно снимает ограничения на скорость стрельбы
+
+
+
+![image](https://github.com/user-attachments/assets/524b1efb-fea4-41f7-8378-db6798f0d959)
+
+
+![Python 3 12 24 12 2024 20_22_13](https://github.com/user-attachments/assets/ba141a8a-cb3c-4f28-9819-f66b07851f46)
