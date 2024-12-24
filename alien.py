@@ -1,16 +1,16 @@
 import pygame
 from pygame.sprite import Sprite
 
-ACS = 0.5
-SPEED = 5
+ACS = 0.1
+SPEED = 1
 
 
 
 class Alien(Sprite):
     def __init__(self, ai):
         super().__init__()
-        self.acs = ACS
-        self.speed = SPEED
+        self.acs = ACS * ai.lvl
+        self.speed = SPEED * ai.lvl
         self.screen = ai.screen
         self.image = pygame.image.load('images/alien1.png')
         self.rect = self.image.get_rect()

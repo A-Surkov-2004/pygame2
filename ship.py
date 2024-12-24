@@ -17,7 +17,7 @@ class Ship():
         self.lives = 3
 
     def check_cooldown(self):
-        if not (time.time() - self.lastshot < COOLDOWN):
+        if not (time.time() - self.lastshot < COOLDOWN) or self.ai.ray:
             self.lastshot = time.time()
             return True
         else:
